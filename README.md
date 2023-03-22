@@ -1,2 +1,2 @@
 # JavaScript
-https://www.github.com/SergioTrabajo/JavaScript/
+https://sergiotrabajo.github.io/JavaScript/
