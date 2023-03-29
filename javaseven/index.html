@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>VALORANT</title>
+</head>
+<body>
+    <h1>Validación de Formularios con JS</h1>
+    <form action="procesa.php" onsubmit="return validarForm()">
+        <p>
+        <label for="years">Edad</label>
+        <input type="number" name="edad" id="years" value="5">
+        </p>
+
+        <p>
+        <label for="years">Nombre</label>
+        <input type="text" name="name" id="name">
+        </p>
+        
+        <p>
+            <label for="comunidad">Comunidad Autonoma</label>
+                <select name="comunidad" id="comunidad">
+                    <option value="elija">Elija una...</option>
+                    <option value="cm">Castilla-La Mancha</option>
+                    <option value="va">Comunidad Valenciana</option>
+                    <option value="ma">Madrid</option>
+                    <option value="cl">Castilla y León</option>
+                </select>
+           
+        </p>
+        <p>
+            <label for="acepto">He leido y acepto las condiciones</label>
+            <input type="checkbox" name="acepto" id="acepto">
+
+        </p>
+
+        <p>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password">
+
+        </p>
+
+        <p> <input type="submit" value="Enviar datos"></p>
+    </form>
+</body>
+</html>
